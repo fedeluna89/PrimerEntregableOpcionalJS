@@ -6,8 +6,14 @@ console.log(nombre);
 console.log(apellido);
 console.log(edad);
 
-if(edad <= 17){
-    alert("no poedes ingresar");
-}else{
-    alert("bienvenido/a");
+if(edad > 17){
+    alert(`bienvenido/a ${nombre} ${apellido}`);
 }
+
+while(edad < 17){
+    edad = prompt("ingresa tu edad")
+    }
+
+
+
+
